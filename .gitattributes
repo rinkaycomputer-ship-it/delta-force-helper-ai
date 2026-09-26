@@ -1,0 +1,14 @@
+# Default behavior
+*.ts linguist-detectable
+package-lock.json linguist-generated
+*.woff binary
+
+src/**/*.tsx linguist-detectable
+node_modules/* linguist-vendored
+
+*.min.css linguist-generated
+*.json linguist-detectable=false
+*.jpeg binary
+
+*.yaml linguist-detectable=false
+docs/* linguist-vendored
